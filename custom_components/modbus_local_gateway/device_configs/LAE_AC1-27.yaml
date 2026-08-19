@@ -1,12 +1,19 @@
 # author: ndrinta
 # date: 19-Aug-2026
-# version: 1.0.1
+# version: 1.0.2
 # notes: >
 # Should be compatible with the entire LAE lineup (certainly the newer AC2-27).
 # AI was used to generate some sensors more efficiently.
 # Can't make the following bit based configuration registers work in write mode:
 # "Cfg_1" (Address 231) and "Cfg_2" (Address 239)
 # I'm looking for a solution (https://github.com/timlaing/modbus_local_gateway/issues/273)
+
+# Pinout Data I/O Port (RJ45) on device:
+# A:    3
+# B:    4
+# GND:  8
+
+# 
 
 device:
   manufacturer: LAE
